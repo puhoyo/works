@@ -1,0 +1,32 @@
+{
+  "state": "production",
+  "clientGameId": 113,
+  "symbolMapping": {
+    "A": ["$a"],
+    "Wild": ["$a", "$w"],
+    "Bonus": [],
+    "Stack1": []
+  },
+  "paymentInfo": {
+    "$a": [0, 0, 1, 2, 3],
+    "$w": [0, 0, 5, 10, 20]
+  },
+  "lineScatters": {
+  },
+  "scatters": ["Bonus"],
+  "wildAlias": {
+    "Wild": "$w"
+  },
+  "stacks": ["Stack1"],
+  "clientSymbolName": {
+    "A": "L",
+    "Wild": "W",
+    "Bonus": "B",
+    "Stack1": "S"
+  },
+  "clientWinName": {
+    "$a": "L",
+    "$w": "W"
+  },
+  "divideOption": 10
+}

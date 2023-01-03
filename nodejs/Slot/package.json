@@ -1,0 +1,40 @@
+{
+  "name": "puho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production pm2 start server.js -i 0",
+    "dev": "cross-env NODE_ENV=development pm2 start server.js -i 0",
+    "local": "cross-env NODE_ENV=local nodemon server"
+  },
+  "author": "puhoya",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonfile": "^6.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "lzutf8": "^0.6.0",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "randy": "^1.5.1",
+    "redis": "^4.1.0",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "socket.io": "^4.5.4",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
